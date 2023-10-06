@@ -1,0 +1,84 @@
+body {
+    background-image: url('../public/images/white-wood.jpeg');
+    font-family: Playfair;
+}
+
+header {
+    margin-bottom: 50px;
+    font-size: medium;
+}
+
+h6 {
+    margin-left: 35px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: smaller;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+form {
+    font-family: Montserrat;
+}
+
+hr {
+    border-top: 1px solid slategray;
+    opacity: 75%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    background-image: url('../public/images/Aba-wood-1.jpg');
+    color: ivory;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.submit-button {
+    background-color: rgb(16, 41, 84);
+    color: ivory;
+}
+
+.blue-button {
+    background-color: rgb(16, 41, 84);
+    color: ivory;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.element-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h6-padding {
+    margin-top: 50px;
+}
+
+.white-text {
+    color: ivory;
+}
+
+.footer-nav {
+    margin: 50px 50px 0px 50px;
+}
+
+.mlmr {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.hidden {
+    display: none;
+  }

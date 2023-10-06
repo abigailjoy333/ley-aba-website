@@ -4,40 +4,151 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../src/style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Aba</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <body>
+      <header class="d-flex justify-content-center">
+          <nav class="navbar navbar-expand-lg justify-content-center m-lg-4 col-10">
+              <img src="./images/Aba-Logo.png" alt="aba logo" class="col-2 h-auto" style="margin-right: 45px;">
+              <div class="navbar-nav d-flex justify-content-around col-lg-10 col-sm-3 border-top border-bottom border-1 border-secondary">
+                  <a class="nav-item nav-link" href="#">RESERVE</a>
+                  <a class="nav-item nav-link" href="#">MENU</a>
+                  <a class="nav-item nav-link" href="#">GROUP DINING</a>
+                  <a class="nav-item nav-link" href="#">EVENTS</a>
+                  <a class="nav-item nav-link" href="#">TEAM</a>
+              </div>
+          </nav>
+      </header>
+      <!-- image section -->
+      <section class="row mlmr">
+          <div class="img-fluid col-5">
+              <img src="./images/up-47.jpg" alt="colorful bowl of soup and a plate of grape leaves over ice">
+          </div>
+          <div class="img-fluid col-7">
+              <img src="./images/Aba_VillageSalad.jpg" alt="village salad">
+          </div>
+      </section>
+      <!-- reservation section -->
+      <section class="row mlmr">
+          <hr>
+          <div class="text-center element-padding">
+            <h3>MAKE A RESERVATION</h3>
+            <!-- react components for reservation form, contact form, and success message -->
+            <div id="root"></div>
+          </div>
+          <hr>
+      </section>
+      <!-- group dining section -->
+      <section class="mlmr">
+          <div class="row align-content-md-center">
+              <div class="text-center col-lg-8 col-sm-12 mt-lg-5 mt-md-1 mt-sm-0 mb-md-2"> 
+                  <hr>
+                  <div class="element-padding">
+                      <h3>GROUP DINING AT ABA</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>
+                      <button type="button" class="btn border-1 border-secondary blue-button rounded-0">PLAN YOUR PARTY</button>
+                  </div>
+                  <hr style="margin-bottom: 25px;">
+              </div>
+              <div class="img-fluid col-lg-4 col-sm-12">
+                  <img src="./images/up-35.jpg" alt="colorful bowl of soup">
+              </div>
+          </div>
+      </section>
+      <!-- wine dinner section -->
+      <section class="mlmr">
+          <div class="row align-content-lg-center">
+              <div class="img-fluid col-lg-4 col-sm-12 mb-5">
+                  <img src="./images/up-36.jpg" alt="colorful bowl of soup close up">
+              </div>
+              <div class="text-center col-lg-8 col-sm-12 mt-lg-5 mt-md-1 mt-sm-0 mb-md-2"> 
+                  <hr>
+                  <div class="element-padding">
+                      <h3>WINE DINNER</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                      </p>
+                      <p>June 13th, 2018 at 7 pm</p>
+                      <button type="button" class="btn border-1 border-secondary blue-button rounded-0">LEARN MORE</button>
+                  </div>
+                  <hr>
+              </div>
+          </div>
+      </section>
+      <!-- about section -->
+      <section class="mlmr">
+          <div class="row">
+              <div class="text-center col-lg-8 col-sm-12 mt-lg-5 mt-md-1 mt-sm-0 mb-md-2"> 
+                  <hr>
+                  <div class="element-padding">
+                      <h3>ABOUT ABA</h3>
+                      <p>
+                          Aba is a restaurant with a rooftor patio located in Chicago's historic Fulton 
+                          Market District. This is Chef CJ Jacobson’s second restaurant with Lettuce Entertain You, 
+                          and is an extension of Ēma (mother in Hebrew) in River North. Aba, meaning father in Hebrew, 
+                          will incorporate Ēma's style of cooking with a larger influence of steak, raw and chilled seafood. 
+                          The beverage program Is crafted by Wine Director Ryan Arnold and Mixologist Liz Pearce and showcases Mediterranean-inspired rare wines and spirits.
+                      </p>
+                  </div>
+                  <hr style="margin-bottom: 25px;">
+              </div>
+              <div class="img-fluid col-lg-4 col-sm-12">
+                  <img src="./images/up-42.jpg" alt="colorful bowl of soup">
+              </div>
+          </div>
+      </section>
+      <footer>
+          <div class="row justify-content-end" style="margin-right: 50px;">
+              <div class="col-lg-2 col-md-4 col-sm-3 justify-content-start">
+                  <h6 class="h6-padding">HOURS</h6>
+                  <p>
+                      Tues - Thurs  12pm - 10pm <br>
+                      Fri 12pm - 1am <br>
+                      Sat 11am - 1am <br>
+                      Sun 10am - 9pm
+                  </p>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-3 justify-content-start">
+                  <h6 class="h6-padding">LOCATIONS</h6>
+                  <p>
+                      302 N Green Street, <br>
+                      3rd Floor <br>
+                      Chicago, IL 60607 <br>
+                      Sun 10am - 9pm
+                  </p>
+              </div>
+          </div>
+          <div class="row justify-content-end" style="margin-right: 50px;">
+              <div class="col-lg-2 col-sm-3 justify-content-start">
+                  <h6>CONTACT</h6>
+                  <H6>NEWSLETTER</H6>
+              </div>
+              <div class="col-lg-2 col-sm-3 justify-content-start">
+                  <!-- for spacing 'conact' and 'newsletter' -->
+              </div>
+          </div>
+          <div class="footer-nav">
+              <nav class="navbar navbar-expand-lg justify-content-lg-around justify-content-md-start justify-content-sm-start">
+                  <div class="navbar-nav d-flex">
+                      <a class="nav-item nav-link white-text" href="#">FREQUENT DINER</a>
+                      <a class="nav-item nav-link white-text" href="#">GIFT CARDS</a>
+                      <a class="nav-item nav-link white-text" href="#">EMPLOYMENT</a>
+                      <a class="nav-item nav-link white-text" href="#">LEYE.COM</a>
+                      <a class="nav-item nav-link white-text" href="#">TERMS OF USE</a>
+                      <a class="nav-item nav-link white-text" href="#">PRIVACY POLICY</a>
+                  </div>
+              </nav>
+          </div>
+      </footer>
   </body>
 </html>
