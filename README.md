@@ -1,6 +1,6 @@
 # Project for Lettuce Entertain You Interview
 
-*Deployed Link:* https://abigailjoy333.github.io/ley-aba-takehome/
+*Deployed Link:* https://lettuce-entertain-you-aba.onrender.com/
 
 ## Screenshots Desktop
 
