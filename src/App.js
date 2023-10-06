@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import "./style.css"
 
 function App() {
-  const [showReservationForm, setShowReservationForm] = useState(true);
-  const [showCustomerForm, setShowCustomerForm] = useState(false);
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [showReservationForm, setShowReservationForm] = useState(true)
+  const [showCustomerForm, setShowCustomerForm] = useState(false)
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false)
 
   const handleReservationSubmit = (e) => {
     e.preventDefault()
